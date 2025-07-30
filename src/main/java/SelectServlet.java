@@ -82,7 +82,7 @@ public class SelectServlet extends HttpServlet {
             out.println("<input type=\"radio\" name=\"action\" value=\"2\">魔法攻撃 (MP:" + ((Wizard) currentCharacter).getMp() + ")<br>");
         } else if (currentCharacter instanceof Thief) {
             out.println("<input type=\"radio\" name=\"action\" value=\"1\" checked>攻撃<br>");
-            out.println("<input type=\"radio\" name=\"action\" value=\"2\">守る<br>");
+            out.println("<input type=\"radio\" name=\"action\" value=\"2\">防御<br>");
         } else {
             out.println("<input type=\"radio\" name=\"action\" value=\"1\" checked>攻撃<br>");
         }
